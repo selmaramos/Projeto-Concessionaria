@@ -1,0 +1,593 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"row"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "banco-de-dados-2122m.sql",
+			"settings":
+			{
+				"buffer_size": 4294,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		},
+		{
+			"file": "editar-cliente.php",
+			"settings":
+			{
+				"buffer_size": 2032,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAA8QgAAAAAAAD3BQAAPGgxPkVkaXRhciBjbGllbnRlPC9oMT4KPD9waHAKCSRzcWwgPSAiU0VMRUNUICogRlJPTSBjbGllbnRlIFdIRVJFIGlkX2NsaWVudGU9Ii4kX1JFUVVFU1RbJ2lkX2NsaWVudGUnXTsKCSRyZXMgPSAkY29ubi0+cXVlcnkoJHNxbCk7Cgkkcm93ID0gJHJlcy0+ZmV0Y2hfb2JqZWN0KCk7Cj8+Cjxmb3JtIGFjdGlvbj0iP3BhZ2U9c2FsdmFyLWNsaWVudGUiIG1ldGhvZD0iUE9TVCI+Cgk8aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJhY2FvIiB2YWx1ZT0iZWRpdGFyIj4KCTxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9ImlkX2NsaWVudGUiIHZhbHVlPSI8P3BocCBlY2hvICRyb3ctPmlkX2NsaWVudGU7ID8+Ij4KCTxkaXYgY2xhc3M9Im1iLTMiPgoJCTxsYWJlbD5Ob21lCgkJCTxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJub21lX2NsaWVudGUiIGNsYXNzPSJmb3JtLWNvbnRyb2wiIHZhbHVlPSI8P3BocCBlY2hvICRyb3ctPm5vbWVfY2xpZW50ZTsgPz4iPgoJCTwvbGFiZWw+Cgk8L2Rpdj4KCTxkaXYgY2xhc3M9Im1iLTMiPgoJCTxsYWJlbD5DUEYKCQkJPGlucHV0IHR5cGU9InRleHQiIG5hbWU9ImNwZl9jbGllbnRlIiBjbGFzcz0iZm9ybS1jb250cm9sIiB2YWx1ZT0iPD9waHAgZWNobyAkcm93LT5jcGZfY2xpZW50ZTsgPz4iPgoJCTwvbGFiZWw+Cgk8L2Rpdj4KCTxkaXYgY2xhc3M9Im1iLTMiPgoJCTxsYWJlbD5FLW1haWwKCQkJPGlucHV0IHR5cGU9ImVtYWlsIiBuYW1lPSJlbWFpbF9jbGllbnRlIiBjbGFzcz0iZm9ybS1jb250cm9sIiB2YWx1ZT0iPD9waHAgZWNobyAkcm93LT5lbWFpbF9jbGllbnRlOyA/PiI+CgkJPC9sYWJlbD4KCTwvZGl2PgoJPGRpdiBjbGFzcz0ibWItMyI+CgkJPGxhYmVsPlRlbGVmb25lCgkJCTxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJ0ZWxlZm9uZV9jbGllbnRlIiBjbGFzcz0iZm9ybS1jb250cm9sIiB2YWx1ZT0iPD9waHAgZWNobyAkcm93LT50ZWxlZm9uZV9jbGllbnRlOyA/PiI+CgkJPC9sYWJlbD4KCTwvZGl2PgoJPGRpdiBjbGFzcz0ibWItMyI+CgkJPGxhYmVsPkVuZGVyZcOnbwoJCQk8aW5wdXQgdHlwZT0idGV4dCIgbmFtZT0iZW5kZXJlY29fY2xpZW50ZSIgY2xhc3M9ImZvcm0tY29udHJvbCIgdmFsdWU9Ijw/cGhwIGVjaG8gJHJvdy0+ZW5kZXJlY29fY2xpZW50ZTsgPz4iPgoJCTwvbGFiZWw+Cgk8L2Rpdj4KCTxkaXYgY2xhc3M9Im1iLTMiPgoJCTxsYWJlbD5EYXRhIGRlIE5hc2NpbWVudG8KCQkJPGlucHV0IHR5cGU9ImRhdGUiIG5hbWU9ImR0X25hc2NfY2xpZW50ZSIgY2xhc3M9ImZvcm0tY29udHJvbCIgdmFsdWU9Ijw/cGhwIGVjaG8gJHJvdy0+ZHRfbmFzY19jbGllbnRlOyA/PiI+CgkJPC9sYWJlbD4KCTwvZGl2PgoJPGRpdj4KCQk8YnV0dG9uIHR5cGU9InN1Ym1pdCIgY2xhc3M9ImJ0biBidG4tcHJpbWFyeSI+CgkJCUVkaXRhciBDbGllbnRlCgkJPC9idXR0b24+CgkJPGEgaHJlZj0iP3BhZ2U9bGlzdGFyLWNsaWVudGUiIGNsYXNzPSJidG4gYnRuLXNlY29uZGFyeSI+CgkJCVZvbHRhcgoJCTwvYT4KCTwvZGl2Pgo8L2Zvcm0+",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAD2BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					4,
+					"left_delete",
+					null,
+					"BAAAAGICAAAAAAAAYgIAAAAAAAAxAAAAICAvLyAzLiBWRVJJRklDQcOHw4NPIERFIFJFU1VMVEFETyAoQm9hIFByw6F0aWNhKWECAAAAAAAAYQIAAAAAAAABAAAAIGACAAAAAAAAYAIAAAAAAAABAAAAIF8CAAAAAAAAXwIAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAkAIAAAAAAABiAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"left_delete",
+					null,
+					"AQAAANABAAAAAAAA0AEAAAAAAAAlAAAACiAgICAvLyAyLiBFWEVDVcOHw4NPIERBIENPTlNVTFRBIFNRTA",
+					"AQAAAAAAAAABAAAA0AEAAAAAAADzAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJ8BAAAAAAAAnwEAAAAAAAAqAAAALy8gVGVybWluYSBvIHNjcmlwdCBwYXJhIGV2aXRhciBvIGVycm8gU1FM",
+					"AQAAAAAAAAABAAAAyQEAAAAAAACfAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"left_delete",
+					null,
+					"AQAAAB0AAAAAAAAAHQAAAAAAAACPAAAACgkvLyDimqDvuI8gMS4gVkVSSUZJQ0HDh8ODTyBERSBJRCBFIFNFR1VSQU7Dh0EgKENPUlJFw4fDg08gRE8gRVJSTyBGQVRBTCkKICAgIC8vIFZlcmlmaWNhIHNlIG8gJ2lkX2NsaWVudGUnIGZvaSBlbnZpYWRvIGUgc2UgbsOjbyBlc3TDoSB2YXppby4",
+					"AQAAAAAAAAABAAAAoQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAB0AAAAAAAAAHgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "listar-cliente.php",
+			"settings":
+			{
+				"buffer_size": 1948,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AQAAAC0HAAAAAAAAjggAAAAAAABXAAAAIHByaW50ICI8YSBocmVmPSc/cGFnZT1lZGl0YXItY2xpZW50ZScgY2xhc3M9J2J0biBidG4td2FybmluZyBidG4tc20gbXItMSc+RWRpdGFyPC9hPiI7",
+					"AQAAAAAAAAABAAAALQcAAAAAAACEBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"left_delete",
+					null,
+					"AQAAAE0IAAAAAAAATQgAAAAAAABsAAAACi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIEJvdMOjbyBFeGNsdWly",
+					"AQAAAAAAAAABAAAAuAgAAAAAAABNCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"left_delete",
+					null,
+					"AQAAAM8GAAAAAAAAzwYAAAAAAADVAAAACiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBCb3TDo28gRWRpdGFyOiBSZWRpcmVjaW9uYSBwYXJhIG8gZm9ybXVsw6FyaW8gZGUgZWRpw6fDo28KICAgICAgICAgICAvLyBDb3JyZcOnw6NvIGRvIExpbmsgZGUgQcOnw6NvIChBcHJveC4gTGluaGEgNDUpCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0K",
+					"AQAAAAAAAAABAAAAnAcAAAAAAADPBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"left_delete",
+					null,
+					"AQAAAM8GAAAAAAAAzwYAAAAAAAA2AAAACi8vIEJvdMOjbyBFZGl0YXI6IERFVkUgaW5jbHVpciBvIElEIGRvIGNsaWVudGUgbmEgVVJM",
+					"AQAAAAAAAAABAAAABAcAAAAAAADPBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "              "
+					},
+					"DgAAANAGAAAAAAAA0QYAAAAAAAAAAAAA0QYAAAAAAADSBgAAAAAAAAAAAADSBgAAAAAAANMGAAAAAAAAAAAAANMGAAAAAAAA1AYAAAAAAAAAAAAA1AYAAAAAAADVBgAAAAAAAAAAAADVBgAAAAAAANYGAAAAAAAAAAAAANYGAAAAAAAA1wYAAAAAAAAAAAAA1wYAAAAAAADYBgAAAAAAAAAAAADYBgAAAAAAANkGAAAAAAAAAAAAANkGAAAAAAAA2gYAAAAAAAAAAAAA2gYAAAAAAADbBgAAAAAAAAAAAADbBgAAAAAAANwGAAAAAAAAAAAAANwGAAAAAAAA3QYAAAAAAAAAAAAA3QYAAAAAAADeBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0AYAAAAAAADQBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"left_delete",
+					null,
+					"AQAAANwGAAAAAAAA3AYAAAAAAAACAAAAICA",
+					"AQAAAAAAAAABAAAA3gYAAAAAAADeBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIEGAAAAAAAAgQYAAAAAAAA3AAAACiAgICAgICAgICAgIC8vIEFkaWNpb25hbmRvIGJvdMO1ZXMgZGUgQcOnw6NvIGNvbSBsaW5rcw",
+					"AQAAAAAAAAABAAAAtQYAAAAAAACBBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFkGAAAAAAAAWQYAAAAAAAAbAAAALy8gRXhpYmUgRGF0YSBkZSBOYXNjaW1lbnRv",
+					"AQAAAAAAAAABAAAAdAYAAAAAAABZBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIgFAAAAAAAAiAUAAAAAAABHAAAACiAgICAgICAgICAgIC8vIEZvcm1hdGEgYSBkYXRhIHBhcmEgdW0gZm9ybWF0byBtYWlzIGxlZ8OtdmVsIChvcGNpb25hbCk",
+					"AQAAAAAAAAABAAAAzgUAAAAAAACIBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOkHAAAAAAAA6QcAAAAAAAArAAAACiAgICAgICAgLy8gQWxlcnRhIG1lbnNhZ2VtIGRlIGluZm9ybWHDp8Ojbw",
+					"AQAAAAAAAAABAAAAEggAAAAAAADpBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHMDAAAAAAAAcwMAAAAAAAAcAAAACiAgICAgICAgLy8gQ29ycG8gZGEgVGFiZWxhIA",
+					"AQAAAAAAAAABAAAAjwMAAAAAAABzAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"left_delete",
+					null,
+					"AQAAAJUDAAAAAAAAlQMAAAAAAAAlAAAACiAgICAgICAgLy8gSXRlcmEgc29icmUgb3MgcmVzdWx0YWRvcw",
+					"AQAAAAAAAAABAAAAugMAAAAAAACVAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMkBAAAAAAAAyQEAAAAAAAAqAAAACiAgICAgICAgLy8gQ2FiZcOnYWxobyBkYSBUYWJlbGEgKDx0aGVhZD4p",
+					"AQAAAAAAAAABAAAA8gEAAAAAAADJAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFUBAAAAAAAAVQEAAAAAAAAbAAAACiAgICAgICAgLy8gSW5pY2lhIGEgVGFiZWxh",
+					"AQAAAAAAAAABAAAAcAEAAAAAAABVAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"left_delete",
+					null,
+					"AQAAAB8AAAAAAAAAHwAAAAAAAAAjAAAACiAgICAvLyBTZWxlY2lvbmEgdG9kb3Mgb3MgY2xpZW50ZXM",
+					"AQAAAAAAAAABAAAAQgAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"left_delete",
+					null,
+					"AQAAAEQAAAAAAAAARAAAAAAAAAA0AAAACiAgICAvLyBBc3N1bWUtc2UgcXVlICRjb25uIMOpIHVtIG9iamV0byBkZSBjb25leMOjbw",
+					"AQAAAAAAAAABAAAAdgAAAAAAAABEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAAGQAAAAAAAAAZAAAAAAAAAAoAAAACiAgICAvLyBDb250YSBhIHF1YW50aWRhZGUgZGUgcmVzdWx0YWRvcw",
+					"AQAAAAAAAAABAAAAjAAAAAAAAABkAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "cadastrar-venda.php",
+			"redo_stack":
+			[
+				[
+					69,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAAqAAAAQ8OzZGlnbyBDb3JyaWdpZG8gcGFyYSBjYWRhc3RyYXItdmVuZGEucGhw",
+					"AQAAAAAAAAABAAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAkQcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 1937,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Selma/Downloads/projetos-concess/projetos/editar-cliente.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/editar-cliente.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/banco-de-dados-2122m.sql",
+		"/C/xampp/htdocs/projeto-escola/index.php",
+		"/C/xampp/htdocs/projeto-escola/config.php",
+		"/C/xampp/htdocs/projeto-escola/listar-professores-por-turma.php",
+		"/C/xampp/htdocs/projeto-escola/listar-alunos-turmas.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/salvar-venda.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/cadastrar-modelo.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/cadastrar-marca.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/cadastrar-funcionario.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/cadastrar-cliente.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/config.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/-- MySQL Script generated by MySQL Workbench",
+		"/C/xampp/htdocs/projeto-concessionaria-main/listar-venda.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/cadastrar-venda.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/editar-modelo.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/listar-modelo.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/salvar-modelo.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/editar-venda.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/index.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/editar-funcionario.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/listar-funcionario.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/salvar-funcionario.php",
+		"/C/Users/Selma/AppData/Local/Temp/5f39e746-a28f-45f0-85e7-0b377cca148d_projetos.zip.48d/projetos/cadastrar-cliente.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/salvar-marca.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/listar-marca.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/listar-cliente.php",
+		"/C/Users/Selma/AppData/Local/Temp/abe92963-78a4-4040-a1d4-a6a5419f3479_projetos.zip.479/projetos/salvar-funcionario.php",
+		"/C/xampp/htdocs/projeto-concessionaria-main/salvar-cliente.php",
+		"/C/Users/Selma/AppData/Local/Temp/402aeba4-9da9-4160-928d-ff52dfb7ab2e_projetos.zip.b2e/projetos/salvar-cliente.php",
+		"/C/Users/Selma/AppData/Local/Temp/d95a7124-ce32-447f-872e-abad37d69b71_projetos.zip.b71/projetos/listar-funcionario.php",
+		"/C/Users/Selma/AppData/Local/Temp/dc9b5b6f-9d5a-46b6-8882-5fa124a948e7_projetos.zip.8e7/projetos/cadastrar-venda.php",
+		"/C/Users/Selma/AppData/Local/Temp/84b36f90-6be7-493a-a21e-646f9e5b7351_projetos.zip.351/projetos/index.php",
+		"/C/Users/Selma/AppData/Local/Temp/e4906b45-a502-4925-a2b3-5b011f650d8a_projetos.zip.d8a/projetos/config.php",
+		"/C/Users/Selma/AppData/Local/Temp/a4cc77a3-60a7-444c-ae7f-94b4793ba074_projetos.zip.074/projetos/cadastrar-funcionario.php",
+		"/C/Users/Selma/AppData/Local/Temp/ae50fb99-7169-4adf-8b95-b2b9e8e9304a_projetos.zip.04a/projetos/cadastrar-cliente.php",
+		"/C/Users/Selma/AppData/Local/Temp/c213bd2e-1cac-4726-81c3-016954541298_projetos.zip.298/projetos/bancodedados.sql",
+		"/C/Users/Selma/AppData/Local/Temp/ee5a3560-451d-4cbd-bde4-646635d8a838_projetos.zip.838/projetos/editar-cliente.php",
+		"/C/Users/Selma/AppData/Local/Microsoft/Windows/INetCache/IE/D7YM71NX/calculadora_flowgorithm[1].fprg",
+		"/C/xampp/htdocs/desenvolvedor-web-html-css/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "banco-de-dados-2122m.sql",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								109
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "editar-cliente.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "listar-cliente.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cadastrar-venda.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1937,
+								1937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 688.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "banco-de-dados-2122m.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
